@@ -50,16 +50,6 @@ li a:hover {
     color: black;
 }
 
-img{
-    -webkit-filter: grayscale(0);
-    cursor: pointer;
-    transition: all .3s ease;
-    width: 100%;
-}
-img:hover{
-   -webkit-filter: grayscale(1);
-  transform: scale(1.1,1.1);
-}
 
 
 @media (max-width: 1280px) {
@@ -95,6 +85,13 @@ main {
 }
 .card img {
    width: 400px;
+   -webkit-filter: grayscale(0);
+   cursor: pointer;
+   transition: all .3s ease;
+}
+
+.card img:hover {
+      -webkit-filter: grayscale(1);
 }
 
 @media (max-width: 1280px) {
